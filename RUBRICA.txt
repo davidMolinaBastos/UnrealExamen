@@ -1,4 +1,11 @@
-1. Crear un Terrain como base jugable, texturizado (Starter Content Rock Basalt Material) y con vegetación (PN_Pandanus treeplant_01)
-3. Trigger con diferentes funcionales 
+- Crear un Terrain como base jugable, texturizado (Starter Content Rock Basalt Material) y con vegetación (PN_Pandanus treeplant_01)
+- Trigger con diferentes funcionales 
 	- Item recolectable (Coins)
+	- Zona de muerte (Devuelve a posicion inicial)
 	- Puerta si el player cumple x (Coins > Minimum Coins)
+- Iluminar el escenario con 3 tipos de luces (DeadZone Point Light, Directional Light Apocalipse coloured, Player Spot Light ), simulación día y noche (See level blueprint of ThirdPersonExampleMap)
+- Crear un HUD con el Tiempo Transcurrido Desde que empezó la partida, Un contador de coleccionable, y la vida del player
+- Crear y lanzar un sonido que no siempre es el mismo sonido, y se modifica su pitch aleatoriamente entre dos valores (0.1 y 1)
+- Crear funcionalidad en el Level Blueprint: Restart Game con F (axis), evento de teclado para debuggar con g y h (Añadir o quitar monedas) y cambiar vida al player con v y b (dentro de los limites)
+- Crear IA a partir de third person controller que Huye
+- Crear esferas físicas que pueden ser impulsadas solo por el player o solo por la IA (mismo blueprint, cambia de una a otra segun un bool)
