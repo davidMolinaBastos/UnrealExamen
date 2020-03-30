@@ -1,0 +1,4 @@
+1. Crear un Terrain como base jugable, texturizado (Starter Content Rock Basalt Material) y con vegetación (PN_Pandanus treeplant_01)
+3. Trigger con diferentes funcionales 
+	- Item recolectable (Coins)
+	- Puerta si el player cumple x (Coins > Minimum Coins)
